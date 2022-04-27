@@ -32,7 +32,7 @@ const Hero = () => {
         data-aos="zoom-in"
         data-aos-duration="2400"
       >
-        <Button>CV (English)</Button>
+        <Button language="en">CV (English)</Button>
         <Button>CV (Danish)</Button>
       </div>
     </div>
