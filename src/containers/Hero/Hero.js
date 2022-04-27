@@ -27,7 +27,11 @@ const Hero = () => {
         </h1>
       </div>
 
-      <div className={classes.Actions}>
+      <div
+        className={classes.Actions}
+        data-aos="zoom-in"
+        data-aos-duration="2400"
+      >
         <Button>CV (English)</Button>
         <Button>CV (Danish)</Button>
       </div>
