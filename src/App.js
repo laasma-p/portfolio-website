@@ -1,6 +1,7 @@
 import "./App.css";
 import Particles from "react-tsparticles";
 import Hero from "./containers/Hero/Hero";
+import Navigation from "./components/Navigation/Navigation";
 
 const particlesOptions = {
   fpsLimit: 60,
@@ -84,6 +85,7 @@ const App = () => {
         params={particlesOptions}
       />
       <Hero />
+      <Navigation />
     </div>
   );
 };
