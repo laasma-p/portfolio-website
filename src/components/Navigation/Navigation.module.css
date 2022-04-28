@@ -1,0 +1,35 @@
+.Navigation {
+  background-color: #ff9292;
+  border-bottom: 2px solid #000;
+}
+
+.NavigationBar {
+  width: 80%;
+  margin: 0 auto;
+  height: 60px;
+}
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  float: right;
+}
+
+li {
+  float: left;
+  font-size: 20px;
+  margin-left: 10px;
+  font-family: Lato, Arial, sans-serif;
+}
+
+li a {
+  display: block;
+  color: #000;
+  text-align: center;
+  padding: 18px 18px;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: #fff;
+}
