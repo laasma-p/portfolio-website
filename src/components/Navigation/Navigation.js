@@ -1,6 +1,12 @@
 import classes from "./Navigation.module.css";
 
 const Navigation = () => {
+  window.addEventListener(
+    "hashchange",
+    () => window.history.pushState({}, "", "/"),
+    {}
+  );
+
   return (
     <header className={classes.Navigation}>
       <nav className={classes.NavigationBar}>
