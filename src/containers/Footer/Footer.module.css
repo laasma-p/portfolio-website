@@ -1,0 +1,55 @@
+.Footer {
+  width: 100%;
+  background-color: #ff9292;
+  height: 60px;
+}
+
+.FooterContainer {
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+}
+
+.CopyrightContainer {
+  height: 60px;
+  width: 30%;
+}
+
+.Copyright {
+  font-family: Lato, Arial, sans-serif;
+  padding: 17.2px 17px;
+  font-size: 21px;
+}
+
+.IconsContainer {
+  width: 70%;
+}
+
+.IconsList {
+  list-style-type: none;
+  overflow: hidden;
+  float: right;
+}
+
+.IconsItem {
+  float: left;
+  margin-left: 10px;
+  font-family: Lato, Arial, sans-serif;
+}
+
+.IconsItem a {
+  display: block;
+  color: #000;
+  text-align: center;
+  padding: 18px 18px;
+  text-decoration: none;
+}
+
+.IconsItem a:hover {
+  color: #fff;
+  cursor: pointer;
+}
+
+i {
+  font-size: 21px;
+}
