@@ -2,6 +2,15 @@ import classes from "./About.module.css";
 import profile from "../../assets/images/lasma.webp";
 
 const About = () => {
+  const dateOfBirth = new Date("02/21/1996");
+  const monthDifference = Date.now() - dateOfBirth.getTime();
+
+  let ageDifference = new Date(monthDifference);
+
+  const year = ageDifference.getUTCFullYear();
+
+  const age = Math.abs(year - 1970);
+
   return (
     <div className={classes.About}>
       <div className={classes.AboutInfo}>
@@ -50,7 +59,7 @@ const About = () => {
           style={{ width: "350px", height: "auto" }}
         />
         <p className={classes.InfoText}>
-          I am Lasma, 26-years-old future front-end web developer that is
+          I am Lasma, {age}-years-old future front-end web developer that is
           enthusiastic about tech and programming.
         </p>
       </div>
